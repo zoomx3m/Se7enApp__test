@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!--// Radio_button in menu-->
+
+    <item
+        android:icon="@drawable/ic_settings"
+        android:title="menu"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/item_1"
+                android:icon="@drawable/ic_unchecked"
+                android:orderInCategory="1"
+                android:showAsAction="never"
+                android:title="@string/item_1" />
+
+            <item
+                android:id="@+id/item_2"
+                android:icon="@drawable/ic_unchecked"
+                android:orderInCategory="2"
+                android:showAsAction="never"
+                android:title="@string/item_2" />
+
+            <item
+                android:id="@+id/item_3"
+                android:icon="@drawable/ic_unchecked"
+                android:orderInCategory="3"
+                android:showAsAction="never"
+                android:title="@string/item_3" />
+
+        </menu>
+    </item>
+
+</menu>

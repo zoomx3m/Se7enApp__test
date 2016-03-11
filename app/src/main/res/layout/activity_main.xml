@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id="@+id/relLay"
+    android:background="@color/contentBackground">
+
+    <!--// Item#1-->
+    <RelativeLayout
+        android:id="@+id/line_item1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@drawable/selector_item_text"
+        android:layout_marginTop="16sp"
+        android:layout_alignParentEnd="true"
+        android:focusable="false">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="14dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/item_1"
+            android:focusable="true"/>
+
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_settings"
+            android:layout_above="@+id/text1"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="15dp"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:textColor="@color/state_color"
+            android:text="@string/itemText_1"
+            android:focusable="true"/>
+
+    </RelativeLayout>
+
+    <!--// Item#2-->
+    <RelativeLayout
+        android:id="@+id/line_item2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@drawable/selector_item_text"
+        android:layout_marginTop="16sp"
+        android:layout_below="@+id/line_item1"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="14dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/item_2"
+            android:duplicateParentState="true"/>
+
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_settings"
+            android:layout_above="@+id/text2"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="15dp"
+            android:duplicateParentState="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:textColor="@color/state_color"
+            android:text="@string/itemText_2"
+            android:duplicateParentState="true"
+            android:focusableInTouchMode="true"/>
+
+    </RelativeLayout>
+
+    <!--// Item#3-->
+    <RelativeLayout
+        android:id="@+id/line_item3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@drawable/selector_item_text"
+        android:layout_marginTop="16sp"
+        android:layout_below="@+id/line_item2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="14dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/item_3" />
+
+
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_settings"
+            android:layout_above="@+id/text3"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="15dp"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:textColor="@color/state_color"
+            android:text="@string/itemText_3"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

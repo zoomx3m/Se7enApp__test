@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/under_menu1"
+        android:title="@string/Open_in_new_window">
+    </item>
+    <item
+        android:id="@+id/under_toast"
+        android:title="@string/Show_in_toast">
+    </item>
+    <item
+        android:id="@+id/under_close"
+        android:title="@string/Close">
+    </item>
+
+
+
+</menu>

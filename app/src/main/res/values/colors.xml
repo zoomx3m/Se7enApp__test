@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorAccentLight">#EAB9CA</color>
+    <color name="contentBackground">#ffffff</color>
+
+    <color name="colorItemFon">#ffffff</color>
+    <color name="colorItemLine">#7290f5</color>
+    <color name="colorTextItem">#c1bfbf</color>
+    <color name="colorTextItemHead">#e93ef5</color>
+
+    <color name="colorItemFonChoise">#485bd9</color>
+    <color name="colorItemLineChoise">#303f9f</color>
+    <color name="colorTextItemChoise">#ffffff</color>
+    <color name="colorTextItemHeadChoise">#e93ef5</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+</resources>

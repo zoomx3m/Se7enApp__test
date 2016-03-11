@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="popup_toast" type="id" />
+    <item name="popup_new_window" type="id" />
+    <item name="popup_close" type="id" />
+</resources>
